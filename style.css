@@ -1,0 +1,87 @@
+/* hello stop lurking my code!!
+if you'd like to use it,
+just tell me beforehand :) */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@400;500&display=swap');
+
+body{
+margin:0;
+padding:40px 20px;
+background:#0b0b10;
+color:#e6e6e6;
+font-family:'Inter',sans-serif;
+line-height:1.6;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+
+div{
+width:100%;
+max-width:800px;
+margin:40px 0;
+display:flex;
+flex-direction:column;
+gap:12px;
+
+}
+
+h1{
+margin:0 0 10px 0;
+font-family:'IBM Plex Mono',monospace;
+font-size:2.4rem;
+letter-spacing:1px;
+color:#e6e6e6;
+
+}
+
+p{
+margin:0;
+color:#cfcfd6;
+}
+
+#projects{
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+#projects a{
+font-family:'IBM Plex Mono',monospace;
+font-size:1.3rem;
+color:#a855f7;
+text-decoration:none;
+display:inline-block;
+margin-right:14px;
+}
+
+#projects a:hover{
+opacity:0.8;
+}
+
+#socials{
+display:flex;
+flex-wrap:wrap;
+gap:16px;
+}
+
+#socials a{
+font-family:'IBM Plex Mono',monospace;
+font-size:1.2rem;
+color:#a855f7;
+text-decoration:none;
+}
+
+#socials a:hover{
+opacity:0.8;
+}
+
+#topheader{
+align-items:center;
+text-align:center;
+}
+
+#topheader h1{
+font-size:3rem;
+color:#ffffff;
+}
