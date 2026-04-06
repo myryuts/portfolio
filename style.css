@@ -83,5 +83,29 @@ text-align:center;
 
 #topheader h1{
 font-size:3rem;
+display: inline-block; 
+animation: wave 1s ease-in-out infinite; 
 color:#ffffff;
+}
+
+#topheader h1 span:nth-child(1) { animation-delay: 0s; }
+#topheader h1 span:nth-child(2) { animation-delay: 0.1s; }
+#topheader h1 span:nth-child(3) { animation-delay: 0.2s; }
+#topheader h1 span:nth-child(4) { animation-delay: 0.3s; }
+#topheader h1 span:nth-child(5) { animation-delay: 0.4s; }
+#topheader h1 span:nth-child(6) { animation-delay: 0.5s; }
+#topheader h1 span:nth-child(7) { animation-delay: 0.6s; }
+#topheader h1 span:nth-child(8) { animation-delay: 0.7s; }
+#topheader h1 span:nth-child(9) { animation-delay: 0.8s; }
+#topheader h1 span:nth-child(10){ animation-delay: 0.9s; }
+#topheader h1 span:nth-child(11){ animation-delay: 1s; }
+#topheader h1 span:nth-child(12){ animation-delay: 1.1s; }
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
 }
